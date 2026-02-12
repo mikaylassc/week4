@@ -4,11 +4,12 @@ CMSC 111
 Spring 2026
 Assignment 1 Week 4 (Functions)
 """
+# This function calculates the area of a rectangle.
+# It multiplies length by width and returns the result.
+
 def area(length, width):
-# Add logic here
-    return length * width
-# Get values from user
-length = float(input("Enter length: "))
-width = float(input("Enter width: "))
-# Call function and print result
-print("Area =" , area(length, width))
+    area = length * width
+    return area
+# Test call to verify the function works correctly
+print(area(5, 10))  
+# Expected Output: 50
